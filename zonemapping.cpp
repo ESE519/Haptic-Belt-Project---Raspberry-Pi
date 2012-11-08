@@ -258,6 +258,7 @@ int main()
 	softPwmWrite(2,0);
 	softPwmWrite(3,0);
 
+	//release the nodes
 	depth.Release();
 	scriptNode.Release();
 	context.Release();
